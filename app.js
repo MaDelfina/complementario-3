@@ -7,7 +7,7 @@ if(seccion === "permanecer"){
 }else if(seccion == "finalizar"){
   saludo.innerHTML = "<h2>Su mensaje fue enviado</h2>";
 }else{
-  saludo.innerHTML = "<h2>Usted esta en la seccion contacto</h2>";
+  saludo.innerHTML = "<h2>Usted esta en el inicio</h2>";
 }
 
 document.body.append(saludo);
